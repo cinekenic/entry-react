@@ -4,14 +4,17 @@ import PropTypes from "prop-types";
 import { settings } from "../../data/dataStore";
 
 class Card extends React.Component {
-  static PropTypes = {
-    title: PropTypes.string,
-  };
+  static get propTypes() {
+    return {
+      title: PropTypes.string,
+    };
+  }
   static defaultProps = {
     icon: settings.defaultColumnIcon,
   };
   render() {
-    console.log(this.props);
+    console.log(typeof this.props);
+    console.log(typeof this.props.title);
     return (
       <section className={styles.component}>
         <h3>{this.props.title}</h3>

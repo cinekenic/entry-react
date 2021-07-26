@@ -7,6 +7,13 @@ import Creator from "../Creator/Creator";
 import { settings } from "../../data/dataStore";
 
 class Column extends React.Component {
+  static get propTypes() {
+    return {
+      cards: PropTypes.node,
+      title: PropTypes.node.isRequired,
+      icon: PropTypes.node.isRequired,
+    };
+  }
   state = {
     cards: this.props.cards || [],
   };

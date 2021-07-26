@@ -6,13 +6,12 @@ import PropTypes from "prop-types";
 import { settings } from "../../data/dataStore";
 import ReactHtmlParser from "react-html-parser";
 import Creator from "../Creator/Creator";
-import Button from "../Button/Button";
 
 class List extends React.Component {
   state = {
     columns: this.props.columns || [],
   };
-  static PropTypes = {
+  static propTypes = {
     title: PropTypes.node.isRequired,
     description: PropTypes.node,
     columns: PropTypes.node,
