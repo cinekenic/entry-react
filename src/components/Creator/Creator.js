@@ -34,6 +34,7 @@ class Creator extends React.Component {
         visibleButtons: false,
       });
     }
+    console.log(typeof this.state.value);
   };
 
   handleCancel = () => {
