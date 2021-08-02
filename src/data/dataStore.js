@@ -10,8 +10,27 @@ export const settings = {
     defaultText: "Search...",
     icon: "search",
   },
+  header: {
+    icon: "cat",
+  },
   defaultListDescription: "<p>I can do all the things!!!</p>",
   defaultColumnIcon: "list-alt",
+};
+
+export const faq = {
+  title: "FAG",
+  description:
+    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus nulla nihil quidem explicabo debitis unde amet eos magni mollitia error, quibusdam nobis animi aliquid quasi enim sequi reprehenderit velit voluptates dolorum porro autem consequatur! Doloremque eius numquam enim aperiam provident ad iste, possimus eaque, illo, nam error facilis beatae neque?",
+  image:
+    "https://images.pexels.com/photos/1205301/pexels-photo-1205301.jpeg?cs=srgb&dl=pexels-felix-mittermeier-1205301.jpg&fm=jpg",
+};
+
+export const info = {
+  title: "Info",
+  description:
+    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus nulla nihil quidem explicabo debitis unde amet eos magni mollitia error, quibusdam nobis animi aliquid quasi enim sequi reprehenderit velit voluptates dolorum porro autem consequatur! Doloremque eius numquam enim aperiam provident ad iste, possimus eaque, illo, nam error facilis beatae neque?",
+  image:
+    "https://images.pexels.com/photos/7568783/pexels-photo-7568783.jpeg?cs=srgb&dl=pexels-csaba-zelch-7568783.jpg&fm=jpg",
 };
 
 export const pageContents = {
