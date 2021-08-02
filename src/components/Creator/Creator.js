@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 
 class Creator extends React.Component {
   static propTypes = {
-    action: PropTypes.node,
+    action: PropTypes.func,
     text: PropTypes.string,
   };
 

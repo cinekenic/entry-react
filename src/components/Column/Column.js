@@ -10,7 +10,7 @@ import Creator from "../Creator/Creator";
 class Column extends React.Component {
   static get propTypes() {
     return {
-      cards: PropTypes.node,
+      cards: PropTypes.array,
       title: PropTypes.node.isRequired,
       icon: PropTypes.node.isRequired,
       addCard: PropTypes.func,
@@ -25,9 +25,9 @@ class Column extends React.Component {
   static defaultProps = {
     icon: settings.defaultColumnIcon,
   };
-
   render() {
     const { title, icon, cards, addCard } = this.props;
+    console.log(typeof cards);
 
     return (
       <section className={styles.component}>
