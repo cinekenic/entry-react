@@ -17,11 +17,6 @@ class Column extends React.Component {
     };
   }
 
-  static PropTypes = {
-    title: PropTypes.node.isRequired,
-    subtitle: PropTypes.string,
-  };
-
   static defaultProps = {
     icon: settings.defaultColumnIcon,
   };
